@@ -1,6 +1,7 @@
 /* Only fixed labels are sent to the data layer. Do not include form data or URLs. */
 (() => {
-  const page = location.pathname.endsWith('back.html') ? 'back'
+  const page = location.pathname.endsWith('training.html') ? 'training'
+    : location.pathname.endsWith('back.html') ? 'back'
     : location.pathname.endsWith('shoulder.html') ? 'shoulder' : 'general';
 
   document.addEventListener('click', (event) => {
