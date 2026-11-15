@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&display=swap');
 @font-face{font-family:'Klee Subset';src:url('assets/fonts/KleeOne-Regular-subset.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
 @font-face{font-family:'Klee Subset';src:url('assets/fonts/KleeOne-SemiBold-subset.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
 @font-face{font-family:'Klee One';src:url('assets/fonts/KleeOne-Regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
@@ -62,3 +63,16 @@ body[data-theme="shoulder"]{--ink:#303b4d;--green:#667795;--deep:#394b68;--muted
 
 /* Readable search intent and secondary consultation links. */
 .hero-copy .eyebrow{font-size:16px;color:var(--ink);letter-spacing:.02em;line-height:1.7}.line-consult{margin:var(--s2) 0!important;font-size:14px}.line-consult a{color:inherit;text-underline-offset:4px}.hero-copy .note a,.faq .answer a{text-underline-offset:4px}
+
+/* Editorial system: one reading rhythm with a distinct palette for each topic. */
+body{font-family:'Shippori Mincho','Yu Mincho',serif;letter-spacing:.04em;line-height:2}
+h1,h2,h3{font-weight:600;letter-spacing:.04em;line-height:1.65}p{line-height:2}
+.eyebrow,.en,.story-label,.feature-label,.scene-heading,.scene-copy b,.point-copy strong,.step b,.rail-label,.rail-location,.rail-links span,.hero-kicker{font-family:Arial,'Noto Sans',sans-serif;letter-spacing:.12em}
+header,.mobile-booking{border-color:var(--line)}.head-cta,.button,.mobile-booking a,.rail-book{font-family:Arial,'Noto Sans',sans-serif;font-weight:600;letter-spacing:.04em}
+.hero-copy h1{margin:var(--s4) 0 var(--s5);line-height:1.65}.hero-copy .eyebrow{font-family:Arial,'Noto Sans',sans-serif;font-size:16px;font-weight:700;letter-spacing:.02em}.hero-kicker{border-top:1px solid var(--muted);padding-top:var(--s2)}.tags span{border-color:var(--accent)}
+.story-content h2{line-height:1.65}.story-label,.section-head .en,.feature-label,.about .en{display:block;border-top:1px solid currentColor;padding-top:var(--s2)}.section-head{text-align:left;margin-left:0}.section-head h2{margin-top:var(--s3)}.story-line{width:96px;background:var(--accent)}
+.story-image:before,.story-image:after{border-radius:0;transform:rotate(45deg);opacity:.25}.story-image span{font-family:Georgia,serif;font-weight:400;letter-spacing:.06em}.story-image small{font-family:Arial,sans-serif}
+.scene{background:var(--paper);border-top:1px solid var(--accent)}.scene-copy{padding:var(--s4)}.scene-name{font-family:Georgia,serif;font-weight:400;letter-spacing:.02em}.scene-copy b{margin-bottom:var(--s1)}.point{background:transparent;border-top:1px solid var(--line)}.point-copy h3{line-height:1.65}.pricebox{border-color:var(--accent)}
+.feature-pair span{border-radius:0}.cta .en{color:inherit;opacity:.8}.cta h2{line-height:1.65}.about img{object-position:center}.faq summary{line-height:1.7}.rail-intro,.rail-heading{font-weight:600;line-height:1.8}.rail-links{border-color:var(--line)}
+@media(max-width:700px),(min-width:1024px){.hero-copy{padding:var(--s5) var(--s3) var(--s8)}.hero-copy h1{font-size:clamp(26px,6.8vw,30px);line-height:1.65;letter-spacing:.03em}.section{padding:var(--s10) 0}.section-head{margin-bottom:var(--s5)}.story-content{padding:var(--s10) var(--s3) var(--s8)}.scene-copy{padding:var(--s3)}.point-copy{padding:var(--s4) var(--s3)}.scene-copy p{line-height:1.8}.cta{padding:var(--s10) var(--s3)}}
+@media(max-width:360px){.hero-copy h1{font-size:25px}.scene-copy{padding:var(--s2)}}
