@@ -76,3 +76,5 @@ header,.mobile-booking{border-color:var(--line)}.head-cta,.button,.mobile-bookin
 .feature-pair span{border-radius:0}.cta .en{color:inherit;opacity:.8}.cta h2{line-height:1.65}.about img{object-position:center}.faq summary{line-height:1.7}.rail-intro,.rail-heading{font-weight:600;line-height:1.8}.rail-links{border-color:var(--line)}
 @media(max-width:700px),(min-width:1024px){.hero-copy{padding:var(--s5) var(--s3) var(--s8)}.hero-copy h1{font-size:clamp(26px,6.8vw,30px);line-height:1.65;letter-spacing:.03em}.section{padding:var(--s10) 0}.section-head{margin-bottom:var(--s5)}.story-content{padding:var(--s10) var(--s3) var(--s8)}.scene-copy{padding:var(--s3)}.point-copy{padding:var(--s4) var(--s3)}.scene-copy p{line-height:1.8}.cta{padding:var(--s10) var(--s3)}}
 @media(max-width:360px){.hero-copy h1{font-size:25px}.scene-copy{padding:var(--s2)}}
+.hero-location{display:block;margin-top:var(--s1);font-size:13px;font-weight:400;color:var(--muted)}
+@media(max-width:700px),(min-width:1024px){body[data-theme="general"] .hero-copy h1{font-size:24px;letter-spacing:0}}
