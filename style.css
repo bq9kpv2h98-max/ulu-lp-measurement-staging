@@ -81,3 +81,4 @@ header,.mobile-booking{border-color:var(--line)}.head-cta,.button,.mobile-bookin
 .hero-copy .hero-promise{font-weight:700;margin:var(--s2) 0 var(--s3)}
 .scene-copy .scene-title{font-size:16px;line-height:1.8;letter-spacing:.02em}
 @media(max-width:700px),(min-width:1024px){.scene-copy .scene-title{font-size:15px}}
+@media(max-width:700px){.mobile-booking a{font-size:13px;white-space:nowrap;gap:var(--s1)}}
